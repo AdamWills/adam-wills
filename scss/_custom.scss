@@ -1,0 +1,44 @@
+/* Variables */
+$black: #0F0F0F;
+$grey: #EBEBEB;
+$white: #fff;
+
+/************************** Header  *****************************/ 
+.site-header {
+	background: $grey;
+	margin-bottom: 2em;
+
+	h1 {
+		margin-top: 0;
+		text-align: center;
+	}
+
+
+	.skip-link a {
+		position:absolute; 
+		left:0px; 
+		top:-500px; 
+		width:1px; 
+		height:1px; 
+		overflow:hidden;
+	}
+
+	.skip-link a:focus {
+		position:static; 
+		width:auto; 
+		height:auto; 
+	}
+
+}
+
+
+
+
+/************************** Footer  *****************************/ 
+.site-footer {
+	background: $black;
+	margin-top: 3em;
+	min-height: 10em;
+	color: $white;
+	padding: 2em 0;
+}
